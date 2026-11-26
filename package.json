@@ -1,0 +1,13 @@
+{
+  "name": "halloway-mobile-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Concept demo: an installable mobile storefront (PWA) for a made-up waxed canvas and leather workshop.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 8765",
+    "test": "node --test",
+    "icons": "node tools/make-icons.mjs"
+  }
+}
